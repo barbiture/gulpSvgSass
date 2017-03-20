@@ -1,0 +1,44 @@
+article,aside,figcaption,figure,footer,header,nav,section {
+  display: block;
+}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+.hidden {
+  display: none;
+}
+.text-jst {
+  text-align: justify;
+}
+.justify {
+  text-align: justify;
+  text-justify: newspaper;
+  text-align-last: justify;
+}
+.justify-reset {
+  text-align: initial;
+  text-justify: initial;
+  text-align-last: initial;
+}
+.in-bl {
+  display: inline-block;
+  vertical-align: middle;
+}
+.prel {
+  position: relative;
+}
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}

@@ -1,0 +1,36 @@
+// @include font-face(sf, "../fonts/", normal, normal, otf);
+// h1, .h1 {
+//   font-family: ;
+//   font-size: ;
+//   font-weight: normal;
+// }
+// h2, .h2 {
+//   font-family: ;
+//   font-size: ;
+//   font-weight: normal;
+// }
+// h3, .h3 {
+//   font-family: ;
+//   font-size: ;
+//   font-weight: normal;
+// }
+// h4, .h4 {
+//   font-family: ; 
+//   font-size: ;
+//   font-weight: normal;
+// }
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.uppercase {
+  text-transform: uppercase !important;
+}
+.lowercase {
+  text-transform: none !important;
+}
